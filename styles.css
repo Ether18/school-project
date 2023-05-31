@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logoImg {
+    width: 4rem;
+}
+
+
+.main-body {
+    width: 100%;
+    height: 33rem;
+    background: url('randomImg.jpg'); 
+    background-repeat: no-repeat;
+    /* background-position: center;  */
+    background-size: cover;
+    color: rgb(2, 32, 57);
+    text-align: center;
+    opacity: 0.6;
+    /* background-image: linear-gradient(white, lightBlue); */
+
+}
+
+.main-body:hover {
+    opacity: 1;
+}
+
+.myNav {
+    box-shadow: 0px 0px 13px;
+    background-image: linear-gradient(lightBlue, white);
+    color: #000;
+}
+/* 
+.main-body pre {
+    color: azure;
+} */
+
+.links li a:hover {
+background-color: #979088;
+font-size: 1.01rem;
+
+}
+
+
+
+hr {
+    border: none;
+height: 2px;
+background: #979088;
+width: 34%;
+margin: 0 auto 10px
+}
+
+.about-us {
+    text-align: center;
+    font-size: 2rem;
+    color: #94560e;
+    margin-top: 2rem;
+    height: 30rem;
+    background: url('random.jpeg'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+    }
+
+
+    footer{
+        background-image: linear-gradient(lightBlue, white);
+ width: 100%;
+ margin: 0;
+    }
+
+    #contact-us ul li {
+        font-size: 1.04rem;
+    }
+
+    #contact-us ul li:hover {
+        font-size: 1.4rem;
+        /* color: blue; */
+    }
